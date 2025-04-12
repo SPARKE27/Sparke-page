@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sparke | Gamer & Developer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <h1>Yo, I'm <span class="highlight">Sparke</span></h1>
+    <p>Competitive Player | Front-end Dev | UI/UX Designer</p>
+    <div class="hero-buttons">
+      <a href="#projects">My Projects</a>
+      <a href="#contact">Connect with Me</a>
+    </div>
+  </header>
+
+  <section class="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>🔥 Competitive Gaming (Poxel.io & more)</li>
+      <li>💻 Front-end Development (HTML, CSS, JS)</li>
+      <li>🎨 UI/UX Design (Modern, responsive layouts)</li>
+    </ul>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <ul>
+      <li>🎮 Poxel.io Clan: UNIQUE</li>
+      <li>💻 Portfolio Websites</li>
+      <li>🎯 Custom UI Kits & Skins</li>
+      <li>🛠️ Ongoing: Blender 3D Models</li>
+    </ul>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Connect With Me</h2>
+    <div class="socials">
+      <a href="https://discord.gg/zHbPrWpc" target="_blank" rel="noopener">Discord</a>
+      <a href="https://www.instagram.com/ig_sparke27/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://github.com/SPARKE27" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/abhishek-p-6476152a4/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </section>
+
+  <div class="music-controls">
+    <button onclick="toggleMusic()">🔊 Play/Pause</button>
+    <button onclick="nextTrack()">⏭️ Next Track</button>
+    <button onclick="prevTrack()">⏮️ Previous Track</button>
+    <!-- Volume Control -->
+    <label for="volume-control">Volume Control:</label>
+    <input type="range" id="volume-control" value="100" max="100" min="0" step="1" title="Adjust the volume" onchange="changeVolume(event)" />
+  </div>       
+      </div>
+    </div>
+  </section>
+  
+
+  
+  <footer>
+    <p>© 2025 Sparke | Stay UNIQUE 🔥</p>
+  </footer>
+
+  <audio id="bg-music" loop>
+    <source src="ncs1.mp3" type="audio/mpeg">
+    <source src="ncs2.mp3" type="audio/mpeg">
+    <source src="ncs3.mp3" type="audio/mpeg">
+  </audio>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
