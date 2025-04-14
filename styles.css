@@ -182,6 +182,39 @@ footer {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
+ .coffee-donation {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: #111;
+    border-top: 2px solid crimson;
+    border-bottom: 2px solid crimson;
+    margin-top: 3rem;
+  }
+
+  .coffee-donation h2 {
+    color: crimson;
+    margin-bottom: 1rem;
+  }
+
+  .coffee-donation p {
+    color: #ccc;
+    margin-bottom: 2rem;
+  }
+
+  .coffee-btn {
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+
+  .coffee-btn:hover {
+    background-color: #a30000;
+  }
+
 
 .music-controls input[type="range"]:hover + .volume-tooltip {
   visibility: visible;
